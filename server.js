@@ -22,7 +22,7 @@ connectDB();
 const __filename- fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// create rest object
+// create rest objectsjsj
 const app = express();
 
 //middleware
