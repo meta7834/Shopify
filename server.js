@@ -10,12 +10,17 @@ import categoryRoutes from "./router/categoryRoutes.js";
 import productRoutes from "./router/productRoutes.js";
 import cors from "cors";
 import path from "path";
+import {fileURLToPath} from 'url';
 
 // configer
 dotenv.config(); // if location is different then==> dotenv.config({path:'./'})
 
 // connet database
 connectDB();
+
+//esmodule 6
+const __filename- fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 // create rest object
 const app = express();
