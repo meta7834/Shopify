@@ -19,7 +19,7 @@ dotenv.config(); // if location is different then==> dotenv.config({path:'./'})
 connectDB();
 
 //esmodule 6 error in es 6 module
-const __filename= fileURLToPath(import.meta.url);
+const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // create rest objectsjsj
